@@ -155,7 +155,7 @@ export const ListMovie = () => {
       <Col sm={12} lg={4}>
         <Card className=" shadow-lg">
           <CardHeader className=" shadow-lg ">
-            <CardTitle>{movie ? "Editar" : "Agregar"} Pelicula</CardTitle>
+            <CardTitle>{movie ? "Edit" : "Add"} Movie</CardTitle>
           </CardHeader>
           <CardBody>
             <FormMovie
@@ -185,12 +185,12 @@ export const ListMovie = () => {
               <Table striped borderless className="" responsive>
                 <thead>
                   <tr>
-                    <th>Título </th>
-                    <th>Duración</th>
+                    <th>Title </th>
+                    <th>Length</th>
                     <th>Rating</th>
-                    <th>Géneros</th>
-                    <th>Premios</th>
-                    <th>Acciones</th>
+                    <th>Genre</th>
+                    <th>Awards</th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>

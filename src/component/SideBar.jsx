@@ -43,14 +43,14 @@ export const SideBar = () => {
       <li className={`nav-item ${pathname === "/movies" && "active"}` }>
         <Link className="nav-link" to="/movies">
           <i className="fas fa-fw fa-film"></i>
-          <span>Peliculas</span>
+          <span>Movie</span>
         </Link>
       </li>
 
       <li className={`nav-item ${pathname === "/actors" && "active"}` }>
         <Link className="nav-link" to="/">
           <i className="fas fa-fw fa-users"></i>
-          <span>Actores</span>
+          <span>Actors</span>
         </Link>
       </li>
 

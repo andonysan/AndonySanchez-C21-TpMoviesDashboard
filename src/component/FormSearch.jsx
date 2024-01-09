@@ -20,7 +20,7 @@ const handleSubmit = (event) => {
   return (
     <Form className="d-flex justify-content-center" onSubmit={handleSubmit}>
     <Form.Group className="d-flex mb-3 col-12 col-md-12 " >
-      <Form.Control type="text" name="keyword" placeholder="Busque su pelicula.." onChange={handleInputChange} />
+      <Form.Control type="text" name="keyword" placeholder="Search movie.." onChange={handleInputChange} />
       <Button variant="outline-light" type="submit" > <i className="fa fa-search"></i>  </Button>
     </Form.Group>
   </Form>
